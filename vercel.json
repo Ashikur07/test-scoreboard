@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/domjudge/(.*)",
+      "destination": "https://realtor-juvenile-those-vacancies.trycloudflare.com/$1"
+    }
+  ]
+}
