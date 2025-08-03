@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '^/domjudge/.*': {
-        target: 'https://ide-rand-comic-there.trycloudflare.com',
+        target: 'https://realtor-juvenile-those-vacancies.trycloudflare.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/domjudge/, '')
       }
