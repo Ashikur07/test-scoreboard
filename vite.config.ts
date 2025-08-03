@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '^/domjudge/.*': {
-        target: 'http://172.16.12.245:12345',
+        target: 'http://172.16.13.244:12345',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/domjudge/, '')
       }
